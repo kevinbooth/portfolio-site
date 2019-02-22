@@ -26,20 +26,19 @@ This is an example application using Vue and the Wordpress Rest API
 ```
 docker-compose up -d
 ```
-3. Restore database data
-    1. Get the container id to mysql
+3. Get the container id to mysql
 ```
 docker ps
 ```
-    2. Replace CONTAINER with container id, replace filename, and run the following
+4. Replace CONTAINER with container id, replace filename, and run the following to restore database data
 ```
 cat backup2019_02_22.sql | docker exec -i CONTAINER /usr/bin/mysql -u root --password=root wordpress
 ```
-4. In the /frontend-vue folder, run the following
+5. In the /frontend-vue folder, run the following
 ```
 npm install
 ```
-5. In the /frontend-vue folder, start the Vue server
+6. In the /frontend-vue folder, start the Vue server
 ```
 npm run dev
 ```
