@@ -53,6 +53,10 @@ docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE > back
 cat backup.sql | docker exec -i CONTAINER /usr/bin/mysql -u root --password=root DATABASE
 ```
 
+#### Wordpress Login
+* Username: admin
+* Password: admin
+
 ### Development notes from my first install (Don't follow! The database copy should handle all this)
 1. Turn on wp rest api
     1. Settings -> Permalinks -> Set to Post name
