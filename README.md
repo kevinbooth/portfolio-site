@@ -1,6 +1,6 @@
 # GYKA Single Page Web Application
 
-This is an example application using Vue and the Wordpress Rest API
+This is an example application using Vue and the Wordpress REST API
 
 ### Frontend:
 * Javascript
@@ -53,7 +53,7 @@ docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE > back
 cat backup.sql | docker exec -i CONTAINER /usr/bin/mysql -u root --password=root DATABASE
 ```
 
-### Development notes from my first install
+### Development notes from my first install (Don't follow! The database copy should handle all this)
 1. Turn on wp rest api
     1. Settings -> Permalinks -> Set to Post name
 2. Install JWT Authentication for WP-API plugin and activate
