@@ -5,7 +5,7 @@
     </div>
     <Hero/>
     <div class="container">
-      <Posts/>
+      <Projects/>
     </div>
   </div>
 </template>
@@ -13,14 +13,14 @@
 <script>
 import Navigation from '../components/Navigation'
 import Hero from '../components/Hero'
-import Posts from '../components/Posts'
+import Projects from '../components/Projects'
 
 export default {
   name: 'Home',
   components: {
     Navigation,
     Hero,
-    Posts
+    Projects
   }
 }
 </script>
