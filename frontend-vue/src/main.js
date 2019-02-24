@@ -19,7 +19,7 @@ import './assets/styles/gyka.css'
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
-Vue.http.options.root = 'http://localhost:8000/wp-json/'
+Vue.http.options.root = 'http://192.168.99.101:8000/wp-json/'
 
 Vue.config.productionTip = false
 
