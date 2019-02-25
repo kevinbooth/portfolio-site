@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-      <router-link to="/"><img class="nav__logo" src="../assets/gyka-logo.png"></router-link>
+      <router-link to="/"><img class="nav__logo" src="../assets/kb-logo.png"></router-link>
       <h5 class="nav__bi-line">{{ msg }}</h5>
       <div class="container">
           <div class="three columns" v-for="navItem in navigation" :key="navItem.id">
